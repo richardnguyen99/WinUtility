@@ -7,10 +7,24 @@
 #ifndef PCH_H
 #define PCH_H
 
+#define _CRT_SECURE_NO_WARNINGS
+
 // add headers that you want to pre-compile here
-#include "WinUtility.h"
+#include <windows.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <malloc.h>
+#include <memory.h>
+#include <tchar.h>
+#include <strsafe.h>
+#include <assert.h>
+#include <string.h>
+#include <wchar.h>
+#include <ctype.h>
 
+// #define STATIC_GETOPT
 
+#include "GetOpt.h"
 
 
 #endif //PCH_H
